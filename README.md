@@ -22,7 +22,7 @@ On vérifie les versions
 python --version   
 ->3.9
 
-#Installer le model et compilation
+# Installer le model et compilation
 git clone https://github.com/tensorflow/models.git
 La commabde git doit être préalablement installée
 Dans le répertoire Tensorflow, on crée un répertoire scritps et workspace
@@ -39,7 +39,7 @@ Tensorflow
  pip install cython
  pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
  
- #On install et compile le paquet tensorflow 2
+ # On install et compile le paquet tensorflow 2
  Test du model
 -------------
 python object_detection\builders\model_builder_tf2_test.py
@@ -48,6 +48,6 @@ python object_detection\builders\model_builder_tf2_test.py
 Ran 24 tests in 17.904s
 
 OK (skipped=1)
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 
 
