@@ -4,7 +4,7 @@ Visual Studio
 Cuda 11.0 et CudNN V8 (on copie les fichers CudNN dans le repertoire Cuda)
 anaconda3
 
-#dépendances:
+# dépendances:
 pip install tensorflow-gpu
 pip install pandas
 pip install matplotlib
