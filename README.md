@@ -40,8 +40,10 @@ Tensorflow
  pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
  
  # On install et compile le paquet tensorflow 2
- Test du model
--------------
+ copy object_detection\packages\tf2\setup.py .
+python -m pip install .
+
+# Test du model
 python object_detection\builders\model_builder_tf2_test.py
 
 ->
